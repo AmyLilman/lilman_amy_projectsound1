@@ -10,3 +10,4 @@
         #        music.ba_ding.play_until_done()
 
 music.play_melody("E B C5 A B G A F ", 150)
+music.set_volume(20)

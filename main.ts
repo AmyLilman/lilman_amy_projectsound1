@@ -8,3 +8,4 @@
 //     if input.light_level() > 8:
 //         music.ba_ding.play_until_done()
 music.playMelody("E B C5 A B G A F ", 150)
+music.setVolume(20)
