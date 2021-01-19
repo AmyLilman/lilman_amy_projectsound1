@@ -9,5 +9,5 @@
     #    if input.light_level() > 8:
         #        music.ba_ding.play_until_done()
 
-music.play_melody("E2 D#2 E2 D#2 E2 B1 D2 C2 A1", 150)
+music.play_melody("E D# E D# E B D C A ", 150)
 music.set_volume(600)
