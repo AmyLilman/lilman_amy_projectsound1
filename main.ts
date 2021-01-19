@@ -7,4 +7,4 @@
 // while True:
 //     if input.light_level() > 8:
 //         music.ba_ding.play_until_done()
-music.playMelody("G F E E E F D D      C G F E E ", 150)
+music.playMelody("E2 D#2 E2 D#2 E2 B1 D2 C2 A1", 130)
