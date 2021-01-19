@@ -11,9 +11,4 @@
 
 music.play_melody("C C G G A A G F F E E D D C G G F F E E D G G F F E E D C C G G A A G F F E E D D C ", 150)
 music.set_volume(20)
-
-while True:
-    if music.play_melody("C C G G A A G F F E E D D C G G F F E E D G G F F E E D C C G G A A G F F E E D D C ", 150):
-        light.show_animation(light.rainbowAnimation, 500)
-    else:
-        light.clear()
+light.show_animation(light.rainbowAnimation, 500)
