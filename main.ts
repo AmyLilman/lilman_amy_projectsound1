@@ -134,10 +134,12 @@
 // light.show_animation(light.rainbowAnimation, 500)
 // light.clear()
 while (true) {
-    if (input.soundLevel() > 100) {
+    if (input.soundLevel() > 85) {
         light.setAll(light.rgb(204, 207, 68))
-    } else {
-        light.clear()
+    }
+    
+    if (input.lightLevel() < 100) {
+        music.powerUp.play()
     }
     
 }
