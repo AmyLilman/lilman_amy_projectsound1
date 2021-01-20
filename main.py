@@ -148,5 +148,5 @@ while True:
         light.clear()
         light.set_all(light.rgb(242, 138, 214))
         
-        if input.light_level() < 100:
-            music.power_up.play()
+    if input.light_level() < 100:
+        music.power_up.play()
