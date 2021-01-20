@@ -141,12 +141,6 @@
 while True:
     if input.sound_level() >= 85:
         light.set_all(light.rgb(204, 207, 68))
-        light.clear()
-        light.set_all(light.rgb(112, 250, 200))
-        light.clear()
-        light.set_all(light.rgb(147, 138, 242))
-        light.clear()
-        light.set_all(light.rgb(242, 138, 214))
     else:
         light.clear()
         
