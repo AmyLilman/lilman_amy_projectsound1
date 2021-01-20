@@ -146,10 +146,4 @@ while (true) {
         light.clear()
     }
     
-    if (input.lightLevel() < 100) {
-        music.powerUp.play()
-    } else {
-        music.stopAllSounds()
-    }
-    
 }

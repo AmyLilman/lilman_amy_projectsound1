@@ -150,7 +150,7 @@ while True:
     else:
         light.clear()
         
-    if input.light_level() < 100:
-        music.power_up.play()
-    else:
-        music.stop_all_sounds()
+    #if input.light_level() < 100:
+    #    music.power_up.play()
+    #else:
+    #    music.stop_all_sounds()
