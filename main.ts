@@ -142,6 +142,10 @@ while (true) {
         light.setAll(light.rgb(147, 138, 242))
         light.clear()
         light.setAll(light.rgb(242, 138, 214))
+        if (input.lightLevel() < 100) {
+            music.powerUp.play()
+        }
+        
     }
     
 }
