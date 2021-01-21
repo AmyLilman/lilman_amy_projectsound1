@@ -142,6 +142,8 @@ while (true) {
     
     if (input.lightLevel() < 100) {
         music.powerUp.playUntilDone()
+    } else {
+        music.stopAllSounds()
     }
     
 }
