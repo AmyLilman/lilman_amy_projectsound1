@@ -135,7 +135,7 @@
 // light.clear()
 while (true) {
     if (input.soundLevel() <= 85) {
-        light.setAll(light.rgb(204, 207, 68))
+        light.setAll(light.rgb(255, 255, 255))
     } else {
         light.clear()
     }
