@@ -4,7 +4,7 @@ while (true) {
     }
     
     if (input.lightLevel() < 100) {
-        music.powerUp.play()
+        music.powerUp.playUntilDone()
     }
     
 }
