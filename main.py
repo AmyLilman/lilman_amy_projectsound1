@@ -147,3 +147,5 @@ while True:
         music.power_up.play_until_done()
     else:
         music.stop_all_sounds()
+
+    
