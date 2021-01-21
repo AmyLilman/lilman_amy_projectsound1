@@ -141,5 +141,7 @@
 while True:
     if input.sound_level() > 85:
         light.set_all(light.rgb(204, 207, 68))
+    else:
+        light.clear()
     if input.light_level() < 100:
         music.power_up.play_until_done()
